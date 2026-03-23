@@ -1314,3 +1314,27 @@ textarea{
     padding-right: 16px;
   }
 }
+
+@media (max-width: 768px) {
+  .big-cta {
+    grid-template-columns: 1fr;
+    padding: 20px 16px;
+  }
+
+  .form,
+  .big-cta-copy,
+  .field,
+  .field input,
+  .field select,
+  .field textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
