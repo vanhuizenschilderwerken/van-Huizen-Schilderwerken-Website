@@ -1290,16 +1290,3 @@ textarea{
     margin-top: 10px;
   }
 }
-
-@media (max-width: 767px) {
-  .container,
-  .row,
-  .col,
-  .inner,
-  .section-inner {
-    margin: 0 !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-    max-width: 100% !important;
-  }
-}
