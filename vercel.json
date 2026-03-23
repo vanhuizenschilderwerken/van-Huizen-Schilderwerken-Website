@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    { "source": "/diensten", "destination": "/diensten.html" },
+    { "source": "/over-ons", "destination": "/over-ons.html" },
+    { "source": "/offerte-aanvragen", "destination": "/offerte-aanvragen.html" },
+    { "source": "/blog-twente", "destination": "/blog-twente.html" },
+    { "source": "/cookiesbeleid", "destination": "/cookiesbeleid.html" },
+    { "source": "/algemene-voorwaarden", "destination": "/algemene-voorwaarden.html" },
+    { "source": "/privacybeleid", "destination": "/privacybeleid.html" }
+  ],
+  "redirects": [
+    { "source": "/diensten.html", "destination": "/diensten", "permanent": true },
+    { "source": "/over-ons.html", "destination": "/over-ons", "permanent": true },
+    { "source": "/offerte-aanvragen.html", "destination": "/offerte-aanvragen", "permanent": true },
+    { "source": "/blog-twente.html", "destination": "/blog-twente", "permanent": true },
+    { "source": "/cookiesbeleid.html", "destination": "/cookiesbeleid", "permanent": true },
+    { "source": "/algemene-voorwaarden.html", "destination": "/algemene-voorwaarden", "permanent": true },
+    { "source": "/privacybeleid.html", "destination": "/privacybeleid", "permanent": true }
+  ]
+}
