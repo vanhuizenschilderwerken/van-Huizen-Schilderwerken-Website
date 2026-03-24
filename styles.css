@@ -233,6 +233,7 @@ em{ font-style: italic; }
 .site-header.is-elevated{
   box-shadow: 0 12px 30px rgba(0,0,0,.08);
 }
+
 .header-inner{
   display:flex;
   align-items:center;
@@ -250,7 +251,7 @@ em{ font-style: italic; }
   padding-left: 0 !important;
 }
 
-brand-logo{
+.brand-logo{
   width: clamp(160px, 14vw, 210px);
   height: auto;
   object-fit: contain;
@@ -266,7 +267,6 @@ brand-logo{
   margin: 0 !important;
   display: block;
 }
-
 
 .brand--footer{
   display: inline-flex;
