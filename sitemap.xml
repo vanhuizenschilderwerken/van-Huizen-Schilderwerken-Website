@@ -1,50 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
   <url>
     <loc>https://www.vanhuizenschilderwerken.nl/</loc>
     <priority>1.0</priority>
   </url>
-
-  <!-- Diensten -->
   <url>
     <loc>https://www.vanhuizenschilderwerken.nl/diensten</loc>
     <priority>0.9</priority>
   </url>
-
-  <!-- Over ons -->
   <url>
     <loc>https://www.vanhuizenschilderwerken.nl/over-ons</loc>
     <priority>0.8</priority>
   </url>
-
-  <!-- Offerte aanvragen -->
   <url>
     <loc>https://www.vanhuizenschilderwerken.nl/offerte-aanvragen</loc>
     <priority>0.9</priority>
   </url>
-
-  <!-- Blog -->
-  <url>
-    <loc>https://www.vanhuizenschilderwerken.nl/blog-twente</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Bedrijfsbeleid -->
   <url>
     <loc>https://www.vanhuizenschilderwerken.nl/algemene-voorwaarden</loc>
     <priority>0.3</priority>
   </url>
-
   <url>
     <loc>https://www.vanhuizenschilderwerken.nl/privacybeleid</loc>
     <priority>0.3</priority>
   </url>
-
   <url>
     <loc>https://www.vanhuizenschilderwerken.nl/cookiesbeleid</loc>
     <priority>0.3</priority>
   </url>
-
+  <url>
+    <loc>https://www.vanhuizenschilderwerken.nl/blog-twente</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
