@@ -168,9 +168,26 @@ min-height:240px;
   }
 }
 
-@media (max-width: 768px) {
- .logo-script {
+@font-face {
   font-family: 'Playlist-Script';
-  color: #95c121;
+  src: url('/fonts/Playlist-Script.woff2') format('woff2'),
+       url('/fonts/Playlist-Script.woff') format('woff'),
+       url('/fonts/Playlist-Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+.logo-script {
+  font-family: 'Playlist-Script', cursive;
+  color: #95c121;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .logo-script {
+    font-family: 'Playlist-Script', cursive;
+    color: #95c121;
+    font-weight: normal;
+  }
 }
