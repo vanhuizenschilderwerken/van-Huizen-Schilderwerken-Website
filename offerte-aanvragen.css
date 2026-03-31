@@ -25,6 +25,20 @@
   --space-6: clamp(2.8rem, 2.1rem + 3vw, 5rem);
 }
 
+@font-face {
+  font-family: 'Playlist-Script';
+  src: url('/fonts/Playlist-Script.woff2') format('woff2'),
+       url('/fonts/Playlist-Script.woff') format('woff'),
+       url('/fonts/Playlist-Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-script {
+  font-family: 'Playlist-Script', cursive;
+  color: #95c121;
+}
+
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
 body{
