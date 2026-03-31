@@ -38,6 +38,16 @@
   box-sizing:border-box;
 }
 
+.logo-script {
+  color: #95c121;
+}
+
+@media (max-width: 768px) {
+  .logo-script {
+    color: #95c121;
+  }
+}
+
 html{
   scroll-behavior:smooth;
 }
