@@ -29,6 +29,13 @@
   --space-6: clamp(2.8rem, 2.1rem + 3vw, 5rem);
 }
 
+.script-text{
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  color: #95c121;
+  font-size: 42px;
+}
+
 *{ box-sizing: border-box; }
 html{ scroll-behavior:smooth; }
 body{
