@@ -29,11 +29,17 @@
   --space-6: clamp(2.8rem, 2.1rem + 3vw, 5rem);
 }
 
-.script-text{
-  font-family: "Kalam", cursive;
-  font-weight: 700;
-  color: #95c121;
-  font-size: 42px;
+@font-face {
+  font-family: 'Playlist-Script';
+  src: url('/fonts/Playlist-Script.woff2') format('woff2'),
+       url('/fonts/Playlist-Script.woff') format('woff'),
+       url('/fonts/Playlist-Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-script {
+  font-family: 'Playlist-Script', cursive;
 }
 
 *{ box-sizing: border-box; }
