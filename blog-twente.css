@@ -114,33 +114,6 @@ strong{ font-weight: 700; }
   max-width: 64ch;
 }
 
-.accent{
-  color: var(--ink);
-  position: relative;
-  display: inline;
-  z-index: 1;
-}
-
-.accent::after{
-  content:"";
-  position:absolute;
-  left: -0.12em;
-  right: -0.12em;
-  bottom: -0.03em;
-  height: 0.60em;
-  z-index: -1;
-  transform: rotate(-1deg);
-  background-image: url("data:image/svg+xml;utf8,\
-  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 80' preserveAspectRatio='none'>\
-    <path d='M10 45 C35 25, 75 58, 115 42 C150 28, 190 24, 225 38 C255 50, 285 47, 310 38 L306 63 C274 70, 238 67, 198 68 C148 70, 100 71, 58 66 C32 63, 18 59, 10 57 Z' fill='%2395c121' fill-opacity='0.36'/>\
-    <path d='M22 36 C55 30, 88 46, 122 38 C155 31, 190 27, 232 34 C261 39, 286 40, 300 36' fill='none' stroke='%2395c121' stroke-opacity='0.22' stroke-width='4' stroke-linecap='round'/>\
-  </svg>");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-  pointer-events: none;
-}
-
 .muted{ color: var(--muted); }
 
 .skip-link{
