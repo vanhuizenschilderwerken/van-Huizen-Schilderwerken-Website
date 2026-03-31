@@ -55,9 +55,10 @@ em{ font-style: italic; }
 }
 
 .section{
-  padding: var(--space-6) 0;
-  background: #fff;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
+
 .section-soft{
   background:
     radial-gradient(900px 260px at 15% 0%, var(--soft-green-2), transparent 55%),
