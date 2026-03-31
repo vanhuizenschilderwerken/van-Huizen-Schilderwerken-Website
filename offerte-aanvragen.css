@@ -39,6 +39,14 @@
   color: #95c121;
 }
 
+@media (max-width: 768px) {
+ .logo-script {
+  font-family: 'Playlist-Script';
+  color: #95c121;
+}
+}
+  
+
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
 body{
