@@ -167,3 +167,10 @@ min-height:240px;
     padding-right: 16px;
   }
 }
+
+@media (max-width: 768px) {
+ .logo-script {
+  font-family: 'Playlist-Script';
+  color: #95c121;
+}
+}
