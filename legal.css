@@ -16,7 +16,6 @@
   --container: 1280px;
 
   --font-sans: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  --font-script: "Playlist-Script", cursive;
 
   --step--1: clamp(.88rem, .82rem + .2vw, .95rem);
   --step-0: clamp(1rem, .95rem + .25vw, 1.08rem);
