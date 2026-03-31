@@ -55,8 +55,8 @@ strong{ font-weight: 700; }
 }
 
 .section{
-  padding: var(--space-5) 0;
-  background: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .section-soft{
