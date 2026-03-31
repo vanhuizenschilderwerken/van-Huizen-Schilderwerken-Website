@@ -32,20 +32,22 @@
        url('/fonts/Playlist-Script.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 .logo-script {
-  font-family: 'Playlist-Script';
+  font-family: 'Playlist-Script', cursive;
   color: #95c121;
+  font-weight: normal;
 }
 
 @media (max-width: 768px) {
- .logo-script {
-  font-family: 'Playlist-Script';
-  color: #95c121;
+  .logo-script {
+    font-family: 'Playlist-Script', cursive;
+    color: #95c121;
+    font-weight: normal;
+  }
 }
-}
-  
 
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
