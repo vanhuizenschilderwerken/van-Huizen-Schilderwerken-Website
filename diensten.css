@@ -37,6 +37,9 @@
 /* ================================
    Kleine layout verbetering
 ================================ */
+.hero{
+  padding-top: 4rem;
+}
 
 .section{
   padding-top: 3.5rem;
