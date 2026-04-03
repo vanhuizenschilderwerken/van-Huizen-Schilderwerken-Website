@@ -768,3 +768,7 @@ h3{
     margin-top: 10px;
   }
 }
+
+.btn-primary {
+  border-radius: 50px;
+}
