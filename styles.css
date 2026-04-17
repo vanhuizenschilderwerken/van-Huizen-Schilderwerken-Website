@@ -1391,7 +1391,7 @@ textarea{
 
 .reviews-title {
   margin: 0 0 24px;
-  font-size: clamp(1.4rem, 1.2rem + 1vw, 2.05rem);
+  font-size: clamp(1.85rem, 1.55rem + 1.8vw, 3rem);
   line-height: 0.95;
   font-weight: 700;
   letter-spacing: -0.04em;
