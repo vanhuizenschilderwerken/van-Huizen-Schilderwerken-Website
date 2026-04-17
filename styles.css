@@ -1536,6 +1536,7 @@ textarea{
   list-style: none;
   margin: 0;
   padding: 0;
+  color: #35332e;
 }
 
 .mini-list li {
@@ -1543,7 +1544,7 @@ textarea{
   padding-left: 22px;
   margin-bottom: 12px;
   font-size: 15px;
-  line-height: 0.8;
+  line-height: 1.5;
   color: #35332e;
 }
 
