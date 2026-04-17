@@ -182,4 +182,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const dots = document.querySelectorAll(".reviews-dots .dot");
+    if (dots.length) {
+      dots[0].classList.add("active");
+    }
+  });
+
+
 
