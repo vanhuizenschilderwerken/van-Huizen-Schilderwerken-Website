@@ -1634,3 +1634,11 @@ textarea{
     font-size: 44px;
   }
 }
+
+@media (max-width: 768px) {
+  .media-card--tall {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    border-radius: 0;
+  }
+}
