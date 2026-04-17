@@ -1637,8 +1637,9 @@ textarea{
 
 @media (max-width: 768px) {
   .media-card--tall {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    border-radius: 0;
+     width: 100%;
+  min-height: 360px;
+  border-radius: calc(var(--radius) + 10px);
+  border: 1px solid rgba(0,0,0,.06);
   }
 }
