@@ -1542,8 +1542,8 @@ textarea{
   position: relative;
   padding-left: 22px;
   margin-bottom: 12px;
-  font-size: 16px;
-  line-height: 1.0;
+  font-size: 15px;
+  line-height: 0.8;
   color: #35332e;
 }
 
@@ -1593,7 +1593,7 @@ textarea{
   margin: 0;
   font-size: 16px;
   line-height: 1.65;
-  color: #35332e;
+  color: #dddddd;
 }
 
 @media (max-width: 991px) {
