@@ -464,5 +464,64 @@
   </div>
 
   <script src="script.js"></script>
+
+  <script>
+  const reviews = [
+    {
+      name: "Jan de Vries",
+      rating: 5,
+      text: "Zeer tevreden over het buitenschilderwerk. Duidelijke communicatie, netjes gewerkt en het resultaat is top.",
+      date: "2 maanden geleden"
+    },
+    {
+      name: "Marieke Jansen",
+      rating: 5,
+      text: "Van Huizen Schilderwerken heeft onze woning van binnen geschilderd. Strakke afwerking en alles netjes achtergelaten.",
+      date: "1 maand geleden"
+    },
+    {
+      name: "Peter Mulder",
+      rating: 5,
+      text: "Betrouwbaar bedrijf, goede prijs-kwaliteitverhouding en afspraken worden nagekomen. Zeker aan te raden.",
+      date: "3 weken geleden"
+    }
+  ];
+
+  const reviewsGrid = document.getElementById("reviewsGrid");
+  const averageRating = document.getElementById("averageRating");
+  const reviewCount = document.getElementById("reviewCount");
+
+  function createStars(rating) {
+    return "★".repeat(rating) + "☆".repeat(5 - rating);
+  }
+
+  function renderReviews() {
+    reviewsGrid.innerHTML = "";
+
+    reviews.forEach((review) => {
+      const card = document.createElement("div");
+      card.classList.add("review-card");
+
+      card.innerHTML = `
+        <div class="review-top">
+          <div class="review-name">${review.name}</div>
+          <div class="review-stars">${createStars(review.rating)}</div>
+        </div>
+        <div class="review-text">${review.text}</div>
+        <div class="review-date">${review.date}</div>
+      `;
+
+      reviewsGrid.appendChild(card);
+    });
+
+    const avg =
+      reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length;
+
+    averageRating.textContent = avg.toFixed(1);
+    reviewCount.textContent = `Gebaseerd op ${reviews.length} reviews`;
+  }
+
+  renderReviews();
+</script>
 </body>
 </html>
