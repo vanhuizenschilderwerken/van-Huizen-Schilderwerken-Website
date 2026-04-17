@@ -182,41 +182,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const track = document.getElementById("reviewsTrack");
-    const dots = document.querySelectorAll("#reviewsDots .dot");
-    const prevBtn = document.querySelector(".reviews-prev");
-    const nextBtn = document.querySelector(".reviews-next");
 
-    let currentIndex = 0;
-    const totalSlides = 2;
-
-    function updateSlider() {
-      track.style.transform = `translateX(-${currentIndex * 100}%)`;
-
-      dots.forEach((dot, index) => {
-        dot.classList.toggle("active", index === currentIndex);
-      });
-    }
-
-    prevBtn.addEventListener("click", function () {
-      currentIndex = currentIndex === 0 ? totalSlides - 1 : currentIndex - 1;
-      updateSlider();
-    });
-
-    nextBtn.addEventListener("click", function () {
-      currentIndex = currentIndex === totalSlides - 1 ? 0 : currentIndex + 1;
-      updateSlider();
-    });
-
-    dots.forEach((dot) => {
-      dot.addEventListener("click", function () {
-        currentIndex = Number(this.dataset.index);
-        updateSlider();
-      });
-    });
-
-    updateSlider();
-  });
-</script>
