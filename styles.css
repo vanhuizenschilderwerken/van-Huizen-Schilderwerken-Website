@@ -1468,6 +1468,7 @@ textarea{
 .reviews-google-text {
   font-size: 15px;
   color: #6a6559;
+  margin-top: -10px;
 }
 
 .g-blue { color: #4285f4; }
